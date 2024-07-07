@@ -400,8 +400,73 @@ section{
   color: #eee;
 }
 
+/* features section starts */
 
+.featured .featured-slider{
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
 
+.featured .featured-slider .box{
+ text-align: center;
+ padding: 2rem;
+ box-shadow: var(--box-shadow);
+ border:var(--black);
+ border-radius: .5rem;
+}
+
+.featured .featured-slider .box img{
+  /* height: 15rem; */
+  width: 100%;
+  padding: 2rem;
+}
+
+.featured .featured-slider .box:hover img{
+ transform: scale(.9);
+}
+.featured .featured-slider .box h3{
+ font-size: 2.2rem;
+ color: var(--black);
+}
+
+.featured .featured-slider .box .stars{
+  padding: 1rem 0;
+ }
+ .featured .featured-slider .box .stars i{
+  font-size: 1.7rem;
+  color:var(--yellow);
+ }
+ .featured .featured-slider .box .price{
+  font-size: 2.5rem;
+  color:var(--black);
+ }
+
+.newsletter{
+  padding: 6rem 2rem;
+  text-align: center;
+  background: url(../Projet_#1/image/car.jpg)no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.newsletter h3{
+  color: var(--black);
+  font-size: 3rem;
+}
+.newsletter p{
+  color: var(--light-color);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.newsletter from{
+ margin:1rem auto;
+ max-width: 60rem;
+ height: 5rem;
+ height: 5rem;
+ display: flex;
+ box-shadow: var(--box-shadow);
+ overflow: hidden;
+}
 
 
 
